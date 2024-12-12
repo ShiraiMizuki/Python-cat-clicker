@@ -933,7 +933,7 @@ roulette.place_forget()
 settings = tk.Button(w, text='Settings', command=menu2, fg="white", font=('yugothicuisemibold', 40,), bg='#A900D1',
                      border=0, width=10)
 settings.place_forget()
-clicker = tk.Button(frame, image=clickerzdj, command=scorea, border=0)
+clicker = tk.Button(frame, image=bandito, command=scorea, border=0)
 clicker.place_forget()
 clickerbonus = tk.Button(frame, image=bonuszdj, command=scoreabonus, border=0)
 clickerbonus.place_forget()
